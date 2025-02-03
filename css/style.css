@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 
-   
+
 }
+
 body {
-    background-color: rgb(212, 252, 224);
+    background-color: rgb(119 159 132)
 
 }
 
@@ -16,22 +17,23 @@ img {
     border-radius: 50px;
 }
 
-
 .section {
     margin-top: 30px;
-   
-    
+}
+
+
+
 
 .title {
-    color: rgb(207, 188, 191);
+    color: rgb(191 206 191);
     text-align: center;
     font-size: 30px;
-    
+
 }
 
 
 .sub-title {
-    text-align:-webkit-center;
+    text-align: -webkit-center;
     margin: 50px 0;
 
 
@@ -39,98 +41,107 @@ img {
 }
 
 .container {
- 
-   width: 80%;
+
+    width: 80%;
     margin: 0 auto;
-}
+
 }
 
 .row {
-    display: flex;                       
-   flex-wrap: wrap;
-   align-items: center;
-   justify-content: space-between;
-   
-  
-   
-    
-    
-    
-
-  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
 .col {
     display: flex;
     flex-wrap: wrap;
-   border: 3px solid lightgrey;
-   border-radius: 40px;
+    border: 3px solid lightgrey;
+    border-radius: 40px;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: rgb(175, 173, 173);
+    color: rgb(0, 0, 0);
     margin-bottom: 40px;
-  width: calc(95%/1);
-  
-
+    width: calc(95%/1);
+    min-height: 150px;
 
 }
 
 .content-info {
-    width: 200px;
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     padding: 10px;
     margin-right: 40px;
-    
 
+}
 
-    
-   
+.name {
+    font-style: oblique;
+    font-size: 20px;
 }
 
 
 .email {
-    color: blue;
+    color: rgb(50, 40, 27);
+    font-style: oblique;
+
+    
 }
 
 
 
 
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 650px) {
     .col {
         background-color: rgb(67, 66, 66);
         width: calc(95% / 2);
         border-radius: 20px;
+        min-height:50px ;
+        color: beige;
 
     }
+
     body {
         background-color: rgb(202, 226, 224);
     }
-   img {
-    border-radius: 50px;
-   }
+
+    img {
+        border-radius: 20px;
+    }
+
+    .email {
+        color: rgb(204, 168, 115);
+        text-decoration: none;
+    }
 
 
-   
-   .title {
-    color: rgb(245, 245, 245);
-   }
 
-   
+    .title {
+        color: rgb(245, 245, 245);
+    }
+
+
 }
 
 
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1280px) {
     .col {
         width: calc(95% /3);
+        color: beige;
     }
 
-    .title { 
+    .title {
         color: white;
     }
-    
+
+    img {
+        border-radius: 20px;
+    }
+
 }
+
 
